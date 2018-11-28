@@ -1,0 +1,74 @@
+.my_color{
+    color: olive
+}
+
+.my_font{ 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 100px; font
+}
+
+/* mouse over link */
+a:hover{
+    text-decoration: none; 
+    color: pink; 
+    background: black
+}
+
+/* clicked link */
+a:focus{
+    text-decoration: underline; color: navy
+}
+
+/* visited link */
+a:visited{
+    color: red
+}
+
+/* example of the box model */
+.my_container{    
+    
+    background-image: url(images/cute-pictures-of-christmas-dogs-tattoos-best-25-christmas-dog-ideas-on-pinterest-dog-christmas-pictures-of-cute-pictures-of-christmas-dogs-640x480.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+    border: 4px solid white;
+    padding: 20px;
+
+    /*padding: 20px */
+    height: 250px;
+    width: 50%;
+    box-shadow: 5px 5px 0 lightcoral;
+    text-align: center;
+
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+@media (max-width:500px) {
+
+    h1 {
+        font-size:10px
+    }
+}
+
+@media (min-width:1000px) {
+
+    h1 {
+        background-color: black
+    }
+}
+
+form {
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.my_input_txt {
+    width:100%;
+    
+}
+     
