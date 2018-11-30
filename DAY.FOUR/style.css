@@ -1,0 +1,37 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1  {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 80px;
+    color: purple!important;
+}
+
+.container (fixed-width)
+
+.col-md-4 
+
+div {
+    border: 1px solid lightgray
+}
+
+.btn-primary {
+    background-color: pink;
+    border-color: palevioletred;
+}
+
+.my_btn_color {
+    color: white;
+    background-color: rosybrown;
+    border-color: rosybrown;
+}
+
+.jumbotron {
+    background-image: url(images/cat.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.carouselExampleControls {}
