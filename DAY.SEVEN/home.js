@@ -108,7 +108,39 @@ while(step < numbers.length ){
 
 }
 
+var numbers2 = [1,2,3,4,5,6,7,8,9,10];
+
+for(var a = 6 ; a < numbers2.length ; a++) {
+    console.log(numbers2[a]);
+}
+
 
     
+var collections = [];
+
+collections.push("Test");
+console.log(collections);
+
+collections.push("Test 2");
+console.log(collections);
 
 
+var myCollections = [];
+function addMe() {
+    var myText = document.getElementById("myText").value;
+
+    myCollections.push(myText);
+
+    document.getElementById("myResult").innerHTML = "";
+    for( var a = 0; a < myCollections.length; a++ ) {
+        var currValue = myCollections[a] + "<br>";
+        currResultValue = document.getElementById("myResult").innerHTML;
+        document.getElementById("myResult").innerHTML = currResultValue + currValue;
+    }
+
+    //document.getElementById("myResult").innerHTML = "This is a test only";
+    
+}
+
+var test = document.getElementById("myResult").innerHTML;
+console.log(test);
